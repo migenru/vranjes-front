@@ -55,7 +55,6 @@ export const priceToString = (
   return `${price.currency} ${amount.toFixed(2)}`;
 };
 
-.
 
 export const generateCollectionUrl = (id: string, name: string) =>
   `/collection/${urlSlug(name)}/${getDBIdFromGraphqlId(id, "Collection")}/`;
