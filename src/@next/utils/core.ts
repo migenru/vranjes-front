@@ -3,6 +3,7 @@
 import { Base64 } from "js-base64";
 
 import { IItems } from "@saleor/sdk/lib/api/Cart/types";
+import urlSlug from 'url-slug';
 
 export const slugify = (text: string | number): string =>
   text
@@ -28,8 +29,8 @@ export const getDBIdFromGraphqlId = (
   return parseInt(id, 10);
 };
 
-export const generateCategoryUrl = (id: string, name: string) =>
-  `/category/${slugify(name)}/${getDBIdFromGraphqlId(id, "Category")}/`;
+export const generateCategoryUrl = (id: string, slug: string) =>
+  `/category/${urlSlug(slug)}/${getDBIdFromGraphqlId(id, "Category")}/`;
 
 export const generateCollectionUrl = (id: string, name: string) =>
   `/collection/${slugify(name)}/${getDBIdFromGraphqlId(id, "Collection")}/`;

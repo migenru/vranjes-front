@@ -7,6 +7,7 @@ import {
   ParsedQuery,
 } from "query-string";
 import { FetchResult } from "react-apollo";
+import urlSlug from 'url-slug';
 
 import { OrderDirection, ProductOrderField } from "../../gqlTypes/globalTypes";
 import { IFilterAttributes } from "../@next/types";
@@ -54,14 +55,10 @@ export const priceToString = (
   return `${price.currency} ${amount.toFixed(2)}`;
 };
 
-export const generateProductUrl = (id: string, name: string) =>
-  `/product/${slugify(name)}/${getDBIdFromGraphqlId(id, "Product")}/`;
-
-export const generateCategoryUrl = (id: string, name: string) =>
-  `/category/${slugify(name)}/${getDBIdFromGraphqlId(id, "Category")}/`;
+.
 
 export const generateCollectionUrl = (id: string, name: string) =>
-  `/collection/${slugify(name)}/${getDBIdFromGraphqlId(id, "Collection")}/`;
+  `/collection/${urlSlug(name)}/${getDBIdFromGraphqlId(id, "Collection")}/`;
 
 export const generatePageUrl = (slug: string) => `/page/${slug}/`;
 

@@ -4,7 +4,7 @@ import { generatePageUrl } from "./utils";
 
 export const BASE_URL = "/";
 export const PRODUCTS_PER_PAGE = 6;
-export const SUPPORT_EMAIL = "support@example.com";
+export const SUPPORT_EMAIL = "shop@vranjes.ru";
 export const PROVIDERS = {
   BRAINTREE: {
     label: "Braintree",
@@ -64,9 +64,9 @@ export const SOCIAL_MEDIA = [
 export const META_DEFAULTS = {
   custom: [],
   description:
-    "Open-source PWA storefront built with Saleor's e-commerce GraphQL API. Written with React and TypeScript.",
+    "Интернет-магазин ароматов для дома от Dr.Vranjes",
   image: `${window.location.origin}${require("../images/logo.svg")}`,
-  title: "Demo PWA Storefront – Saleor Commerce",
+  title: "Dr.Vranjes - ароматы для дома из Италии",
   type: "website",
   url: window.location.origin,
 };

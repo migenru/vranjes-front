@@ -4,9 +4,11 @@ import { FormattedMessage } from "react-intl";
 import Media from "react-media";
 import { Link } from "react-router-dom";
 import { commonMessages } from "@temp/intl";
+import urlSlug from 'url-slug';
+
 
 import { baseUrl } from "../../app/routes";
-import { getDBIdFromGraphqlId, slugify } from "../../core/utils";
+import { getDBIdFromGraphqlId } from "../../core/utils";
 import { Category_category } from "../../views/Category/gqlTypes/Category";
 
 import { smallScreen } from "../../globalStyles/scss/variables.scss";
@@ -21,7 +23,7 @@ export const extractBreadcrumbs = (category: Category_category) => {
   const constructLink = item => ({
     link: [
       `/category`,
-      `/${slugify(item.name)}`,
+      `/${urlSlug(item.name)}`,
       `/${getDBIdFromGraphqlId(item.id, "Category")}/`,
     ].join(""),
     value: item.name,
@@ -69,12 +71,12 @@ const Breadcrumbs: React.FC<{
           ))}
         </ul>
       ) : (
-        <div className="breadcrumbs">
-          <Link to={getBackLink(breadcrumbs)}>
-            <FormattedMessage defaultMessage="Back" />
-          </Link>
-        </div>
-      )
+          <div className="breadcrumbs">
+            <Link to={getBackLink(breadcrumbs)}>
+              <FormattedMessage defaultMessage="Back" />
+            </Link>
+          </div>
+        )
     }
   </Media>
 );

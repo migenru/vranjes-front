@@ -4,7 +4,6 @@ import classNames from "classnames";
 import * as React from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import { Link } from "react-router-dom";
-
 import { Button, Loader, ProductsFeatured } from "../../components";
 import { generateCategoryUrl } from "../../core/utils";
 
@@ -62,19 +61,19 @@ const Page: React.FC<{
           {loading && !categories ? (
             <Loader />
           ) : (
-            categoriesExist() && (
-              <Link
-                to={generateCategoryUrl(
-                  categories.edges[0].node.id,
-                  categories.edges[0].node.name
-                )}
-              >
-                <Button testingContext="homepageHeroActionButton">
-                  <FormattedMessage defaultMessage="Shop sale" />
-                </Button>
-              </Link>
-            )
-          )}
+              categoriesExist() && (
+                <Link
+                  to={generateCategoryUrl(
+                    categories.edges[0].node.id,
+                    categories.edges[0].node.name
+                  )}
+                >
+                  <Button testingContext="homepageHeroActionButton">
+                    <FormattedMessage defaultMessage="Shop sale" />
+                  </Button>
+                </Link>
+              )
+            )}
         </div>
       </div>
       <ProductsFeatured
@@ -101,11 +100,10 @@ const Page: React.FC<{
                         }
                       )}
                       style={{
-                        backgroundImage: `url(${
-                          category.backgroundImage
-                            ? category.backgroundImage.url
-                            : noPhotoImg
-                        })`,
+                        backgroundImage: `url(${category.backgroundImage
+                          ? category.backgroundImage.url
+                          : noPhotoImg
+                          })`,
                       }}
                     />
                     <h3>{category.name}</h3>

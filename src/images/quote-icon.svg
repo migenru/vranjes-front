@@ -1,3 +1,56 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M5.56942 11.1154V13.0473H10.396V23.443H0V13.0473H0.000251271V11.1154C0.000251271 7.19244 1.12896 4.27946 3.35522 2.45687C4.89526 1.19612 6.84461 0.556885 9.14927 0.556885V6.1258C7.89819 6.1258 5.56942 6.1258 5.56942 11.1154ZM22.7534 6.1258V0.556885C20.4489 0.556885 18.4996 1.19612 16.9595 2.45687C14.7333 4.27946 13.6044 7.19257 13.6044 11.1154V13.0473V23.443H24V13.0473H19.1735V11.1154C19.1736 6.1258 21.5024 6.1258 22.7534 6.1258Z" fill="#06847B"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="quote-icon.svg"
+   inkscape:version="1.0.1 (1.0.1+r74)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1392"
+     inkscape:window-height="1098"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="42"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <path
+     d="M5.56942 11.1154V13.0473H10.396V23.443H0V13.0473H0.000251271V11.1154C0.000251271 7.19244 1.12896 4.27946 3.35522 2.45687C4.89526 1.19612 6.84461 0.556885 9.14927 0.556885V6.1258C7.89819 6.1258 5.56942 6.1258 5.56942 11.1154ZM22.7534 6.1258V0.556885C20.4489 0.556885 18.4996 1.19612 16.9595 2.45687C14.7333 4.27946 13.6044 7.19257 13.6044 11.1154V13.0473V23.443H24V13.0473H19.1735V11.1154C19.1736 6.1258 21.5024 6.1258 22.7534 6.1258Z"
+     fill="#06847B"
+     id="path2"
+     style="fill:#64513d;fill-opacity:0.5" />
 </svg>

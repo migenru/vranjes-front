@@ -45,6 +45,7 @@ export interface Category_category {
    */
   id: string;
   name: string;
+  slug: string;
   backgroundImage: Category_category_backgroundImage | null;
   /**
    * List of ancestors of the category.
