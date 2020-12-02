@@ -3,14 +3,14 @@
 import { generatePageUrl } from "./utils";
 
 export const BASE_URL = "/";
-export const PRODUCTS_PER_PAGE = 6;
+export const PRODUCTS_PER_PAGE = 12;
 export const SUPPORT_EMAIL = "shop@vranjes.ru";
 export const PROVIDERS = {
-  BRAINTREE: {
-    label: "Braintree",
+  CASH: {
+    label: "Наличными при получении",
   },
-  DUMMY: {
-    label: "Dummy",
+  SBERBANK: {
+    label: "Онлайн оплата картой",
   },
   STRIPE: {
     label: "Stripe",
@@ -41,25 +41,20 @@ export const STATIC_PAGES = [
 ];
 export const SOCIAL_MEDIA = [
   {
-    ariaLabel: "facebook",
-    href: "https://www.facebook.com/mirumeelabs/",
-    path: require("../images/facebook-icon.svg"),
-  },
-  {
     ariaLabel: "instagram",
     href: "https://www.instagram.com/mirumeelabs/",
     path: require("../images/instagram-icon.svg"),
   },
   {
-    ariaLabel: "twitter",
-    href: "https://twitter.com/getsaleor",
-    path: require("../images/twitter-icon.svg"),
+    ariaLabel: "whatsapp",
+    href: "https://wa.me/79282041529",
+    path: require("../images/whatsapp-icon.svg"),
   },
   {
-    ariaLabel: "youtube",
-    href: "https://www.youtube.com/channel/UCg_ptb-U75e7BprLCGS4s1g/videos",
-    path: require("../images/youtube-icon.svg"),
-  },
+    ariaLabel: "facebook",
+    href: "https://www.facebook.com/mirumeelabs/",
+    path: require("../images/facebook-icon.svg"),
+  }
 ];
 export const META_DEFAULTS = {
   custom: [],
@@ -81,7 +76,7 @@ export const CHECKOUT_STEPS = [
   {
     index: 0,
     link: "/checkout/address",
-    name: "Address",
+    name: "Адрес",
     nextActionName: "Continue to Shipping",
     onlyIfShippingRequired: false,
     step: CheckoutStep.Address,
@@ -89,7 +84,7 @@ export const CHECKOUT_STEPS = [
   {
     index: 1,
     link: "/checkout/shipping",
-    name: "Shipping",
+    name: "Доставка",
     nextActionName: "Continue to Payment",
     onlyIfShippingRequired: true,
     step: CheckoutStep.Shipping,
@@ -97,7 +92,7 @@ export const CHECKOUT_STEPS = [
   {
     index: 2,
     link: "/checkout/payment",
-    name: "Payment",
+    name: "Оплата",
     nextActionName: "Continue to Review",
     onlyIfShippingRequired: false,
     step: CheckoutStep.Payment,
@@ -105,7 +100,7 @@ export const CHECKOUT_STEPS = [
   {
     index: 3,
     link: "/checkout/review",
-    name: "Review",
+    name: "Проверка заказа",
     nextActionName: "Place order",
     onlyIfShippingRequired: false,
     step: CheckoutStep.Review,
@@ -113,7 +108,7 @@ export const CHECKOUT_STEPS = [
   {
     index: 4,
     link: "/checkout/payment-confirm",
-    name: "Payment confirm",
+    name: "Подтверждение оплаты",
     onlyIfShippingRequired: false,
     step: CheckoutStep.PaymentConfirm,
     withoutOwnView: true,

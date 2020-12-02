@@ -3,13 +3,13 @@
     "string": "Добавить новый {type}"
   },
   "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_214739616": {
-    "string": "Play with <emphasis>GraphQL API</emphasis>"
+    "string": "Использовать <emphasis>GraphQL API</emphasis>"
   },
   "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_2367386033": {
     "string": "API"
   },
   "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_2844777114": {
-    "string": "Explore <emphasis>Store’s dashboard</emphasis>"
+    "string": "Перейти в <emphasis>Панель управления</emphasis>"
   },
   "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_3662390044": {
     "string": "Панель управления"
@@ -18,7 +18,7 @@
     "string": "Сортировка по:"
   },
   "@next_dot_components_dot_molecules_dot_AccountMenuMobile_dot_AccountMenuMobile_dot_2132071990": {
-    "string": "Go to"
+    "string": "Перейти"
   },
   "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_AccountTile_dot_3253048083": {
     "string": "Личная информация"
@@ -45,7 +45,7 @@
     "string": "МОЙ ПАРОЛЬ"
   },
   "@next_dot_components_dot_molecules_dot_AddToCartButton_dot_AddToCartButton_dot_81047562": {
-    "string": "Добавить в корзину"
+    "string": "В корзину"
   },
   "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_1224809208": {
     "string": "Адрес по умолчанию"
@@ -127,39 +127,39 @@
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_cancelled": {
     "context": "Adyen payment gateway error",
-    "string": "Payment was cancelled."
+    "string": "Платеж отменен"
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_error": {
     "context": "Adyen payment gateway error",
-    "string": "Error processing payment occured."
+    "string": "Произошла ошибка при обработке платежа."
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_general": {
     "context": "Adyen payment gateway error",
-    "string": "Payment confirmation went wrong."
+    "string": "Подтверждение платежа завершилось с ошибкой"
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_refused": {
     "context": "Adyen payment gateway error",
-    "string": "The payment was refused. Try the payment again using a different payment method or card."
+    "string": "В оплате было отказано. Повторите попытку оплаты, используя другой способ оплаты или другую карту."
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_cannotHandlePaymentConfirmation": {
     "context": "Adyen payment gateway error",
-    "string": "Payment gateway did not provide payment confirmation handler."
+    "string": "Платежный шлюз не предоставил обработчик подтверждения платежа."
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_invalidPaymentSubmission": {
     "context": "Adyen payment gateway error",
-    "string": "Invalid payment submission."
+    "string": "Ошибка при обработке платежа."
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_paymentMalformedConfirmationData": {
     "context": "Adyen payment gateway error",
-    "string": "Payment needs confirmation but data required for confirmation received from the server is malformed."
+    "string": "Платеж требует подтверждения, но данные, необходимые для подтверждения, полученные с сервера, неверны."
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_paymentNoConfirmationData": {
     "context": "Adyen payment gateway error",
-    "string": "Payment needs confirmation but data required for confirmation not received from the server."
+    "string": "Платеж требует подтверждения, но данные, необходимые для подтверждения, не получены с сервера."
   },
   "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_unknownPayment": {
     "context": "Adyen payment gateway error",
-    "string": "Unknown payment submission error occured."
+    "string": "Произошла неизвестная ошибка обработки платежа."
   },
   "@next_dot_components_dot_organisms_dot_CartSummary_dot_CartSummary_dot_2088494495": {
     "string": "Сумма заказа в корзине"
@@ -180,7 +180,7 @@
     "string": "Адрес для выставления счета"
   },
   "@next_dot_components_dot_organisms_dot_DiscountForm_dot_DiscountForm_dot_3476123": {
-    "string": "Apply"
+    "string": "Применить"
   },
   "@next_dot_components_dot_organisms_dot_ProductList_dot_ProductList_dot_2783099424": {
     "string": "Больше +"
@@ -198,7 +198,7 @@
     "string": "Ваш номер заказа"
   },
   "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_3364990704": {
-    "string": "We’ve emailed you an order confirmation, and we’ll notify you when the order has been shipped."
+    "string": "Мы отправили Вам подтверждение заказа по электронной почте и сообщим Вам, когда заказ будет отправлен."
   },
   "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_3752098833": {
     "string": "ПОДРОБНОСТИ ЗАКАЗА"
@@ -219,7 +219,7 @@
     "string": "Корзина"
   },
   "@next_dot_pages_dot_CheckoutPage_dot_subpages_dot_CheckoutAddressSubpage_dot_2558335134": {
-    "string": "Please provide billing address."
+    "string": "Пожалуйста, укажите адрес для выставления счета."
   },
   "@next_dot_pages_dot_CheckoutPage_dot_subpages_dot_CheckoutAddressSubpage_dot_929802659": {
     "string": "Пожалуйста, укажите адрес доставки."
@@ -276,29 +276,29 @@
     "string": "Войти"
   },
   "components_dot_MainMenu_dot_MainMenu_dot_4144939532": {
-    "string": "Offline"
+    "string": "Не в сети"
   },
   "components_dot_NotFound_dot_index_dot_1723676032": {
     "string": "Вернуться домой"
   },
   "components_dot_NotFound_dot_index_dot_1782529840": {
-    "string": "You may have mistyped the address or the page may have moved."
+    "string": "Возможно, вы ошиблись при вводе адреса или страница могла быть перемещена."
   },
   "components_dot_NotFound_dot_index_dot_3141549744": {
-    "string": "We’re sorry for the error and hope you’ll have a good day."
+    "string": "Приносим извинения за ошибку и надеемся, что у вас будет хороший день!"
   },
   "components_dot_NotFound_dot_index_dot_3478767873": {
     "string": "404"
   },
   "components_dot_NotFound_dot_index_dot_680965574": {
-    "string": "We can’t seem to find a page you are looking for!"
+    "string": "Кажется, мы не можем найти страницу, которую вы ищете!"
   },
   "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_1316031908": {
     "string": "Моя корзина,"
   },
   "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_1397761112": {
     "context": "items quantity in cart",
-    "string": "{itemsQuantity,plural,one {{itemsQuantity} item} other {{itemsQuantity} items}}"
+    "string": "{itemsQuantity,plural,one {{itemsQuantity} товар} few {{itemsQuantity} товаров} many {{itemsQuantity} товаров} other {{itemsQuantity} товаров}}"
   },
   "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_2426849470": {
     "string": "Перейти в корзину"
@@ -319,7 +319,7 @@
     "string": "Вы забыли свой пароль?"
   },
   "components_dot_OverlayManager_dot_Login_dot_ForgottenPassword_dot_1781368875": {
-    "string": "Кликните сюда"
+    "string": "Напомнить"
   },
   "components_dot_OverlayManager_dot_Login_dot_RegisterForm_dot_2556234295": {
     "string": "Зарегистрироваться"
@@ -331,13 +331,13 @@
     "string": "Новый пользователь создан"
   },
   "components_dot_OverlayManager_dot_Login_dot_index_dot_282922692": {
-    "string": "Аккаунт Saleor"
+    "string": "Личный кабинет"
   },
   "components_dot_OverlayManager_dot_Login_dot_index_dot_3254057623": {
-    "string": "Зарегистрировать новый аккаунт"
+    "string": "Стать клиентом"
   },
   "components_dot_OverlayManager_dot_Login_dot_index_dot_3293735236": {
-    "string": "Войти в аккаунт"
+    "string": "Войти"
   },
   "components_dot_OverlayManager_dot_Password_dot_index_dot_4028609483": {
     "string": "Сбросить пароль"
@@ -352,16 +352,16 @@
     "string": "Показать все результаты"
   },
   "components_dot_PasswordResetRequestForm_dot_index_dot_1587628595": {
-    "string": "Check your inbox"
+    "string": "Проверьте Вашу почту"
   },
   "components_dot_PasswordResetRequestForm_dot_index_dot_2925394684": {
     "string": "Сброс пароля"
   },
   "components_dot_PasswordResetRequestForm_dot_index_dot_805890313": {
-    "string": "Please provide us your email address so we can share you a link to reset your password"
+    "string": "Пожалуйста, предоставьте нам свой адрес электронной почты, чтобы мы могли поделиться с вами ссылкой для сброса вашего пароля"
   },
   "components_dot_Select_dot_SelectOptionsList_dot_1394135378": {
-    "string": "No Options"
+    "string": "Нет вариантов"
   },
   "intl_dot_checkoutMessages_dot_addNewAddress": {
     "string": "Добавить новый адрес"
@@ -424,7 +424,7 @@
     "string": "Оформить заказ"
   },
   "intl_dot_commonMessages_dot_choosePaymentMethod": {
-    "string": "Please choose payment method."
+    "string": "Пожалуйста, выберите способ оплаты."
   },
   "intl_dot_commonMessages_dot_clearFilterHeader": {
     "string": "ОЧИСТИТЬ ФИЛЬТРЫ"
@@ -460,10 +460,10 @@
     "string": "Учетная запись"
   },
   "intl_dot_commonMessages_dot_noItemsAvailable": {
-    "string": "No items available"
+    "string": "Нет доступных товаров"
   },
   "intl_dot_commonMessages_dot_noPurchaseAvailable": {
-    "string": "Not available for purchase"
+    "string": "Недоступно для покупки"
   },
   "intl_dot_commonMessages_dot_orderHistory": {
     "string": "История заказов"
@@ -493,7 +493,7 @@
     "string": "Пожалуйста, укажите адрес электронной почты."
   },
   "intl_dot_commonMessages_dot_purchaseAvailableOn": {
-    "string": "Will become available for purchase on {date} at {time}"
+    "string": "Будет доступно для покупки {date} в {time}"
   },
   "intl_dot_commonMessages_dot_qty": {
     "string": "Количество"
@@ -535,7 +535,7 @@
     "string": "Вариант"
   },
   "intl_dot_commonMessages_dot_youMightLike": {
-    "string": "You might like"
+    "string": "Вы могли бы"
   },
   "intl_dot_orderStatusMessages_dot_canceled": {
     "string": "Отменён"
@@ -589,11 +589,11 @@
     "string": "Последнее обновление: по убыванию"
   },
   "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_1857586798": {
-    "string": "Your order no.: {orderNum}"
+    "string": "Ваш номер заказа: {orderNum}"
   },
   "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_2670827143": {
     "context": "action in popup menu in order view",
-    "string": "Download invoice"
+    "string": "Скачать счет"
   },
   "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_624688748": {
     "string": "Вернуться к истории заказов"
